@@ -11,7 +11,7 @@
         style="background-image: url('{{ asset('images/doen.png') }}')">
         <div class="grid grid-cols-1 py-8 mx-auto md:grid-cols-2 md:py-28 max-w-screen-theme-screen">
             <div class="flex flex-col self-center gap-4">
-                <h2 class="text-4xl font-bold text-red-600">What we doen.</h2>
+                <h2 class="text-4xl font-bold text-red-600">Wat we doen.</h2>
                 <p>
                     Verkoop Slim Uw Auto is gespecialiseerd in de aankoop van alle merken.
                 </p>
