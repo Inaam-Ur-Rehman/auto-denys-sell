@@ -44,7 +44,7 @@
         </div>
         {{-- three cols boxes  --}}
         <div
-            class="grid grid-cols-1 px-10 mx-auto my-32 md:px-24 gap-y-24 gap-x-24 md:grid-cols-2 xl:grid-cols-3 max-w-screen-theme-screen place-items-center">
+            class="grid grid-cols-1 px-4 mx-auto my-32 md:px-24 gap-y-24 gap-x-24 md:grid-cols-2 xl:grid-cols-3 max-w-screen-theme-screen place-items-center">
             <x-option-card number="01" logo="{{ asset('/images/registration.svg') }}"
                 title="Gratis en vrijblijvende waardebepaling"
                 description="Meld uw voertuig snel en eenvoudig aan door een paar vragen te beantwoorden. Voeg ook recente foto's van uw voertuig toe en één van onze medewerkers neemt doorgaans binnen enkele uren contact met u op." />

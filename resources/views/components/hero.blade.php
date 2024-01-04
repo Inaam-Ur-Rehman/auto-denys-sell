@@ -4,7 +4,7 @@
         <div class="z-40 flex flex-col gap-4 pt-32 pb-8 md:pb-24 text-center md:text-left max-w-[600px]">
             <h1 class="text-2xl font-bold md:text-4xl">Verkoop uw auto, bestelwagen of mobilhome zorgeloos aan de beste
                 prijs!</h1>
-            <p class="text-lg md:text-xl max-w-[80%] font-light pb-4 mx-auto md:mx-0">
+            <p class="text-lg md:text-xl md:max-w-[80%] font-light pb-4 mx-auto md:mx-0">
                 Vul onderstaand formulier in zodat we een correct beeld hebben over uw voertuig. Dit duurt slecht 30
                 seconden.
                 We nemen doorgaans dezelfde dag contact op.

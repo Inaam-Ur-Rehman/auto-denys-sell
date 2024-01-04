@@ -25,7 +25,7 @@
                             <li>Bestelwagens</li>
                             <li>Lichte vracht</li>
                             <li>Recente wagens</li>
-                            <li>Wagens met veel kilometers</li>
+                            <li class="whitespace-pre-wrap">Wagens met veel kilometers</li>
                         </ul>
                     </div>
                     <div>
@@ -37,7 +37,7 @@
                             <li>Mobilhomes</li>
                             <li>Recente wagens</li>
                             <li>Schadewagens</li>
-                            <li>Wagens met rode keuringskaart</li>
+                            <li class="whitespace-pre-wrap">Wagens met rode keuringskaart</li>
                         </ul>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     prijs voor uw tweedehandswagen.
                 </p>
                 <a href="/"
-                    class="px-4 py-2 text-white transition duration-200 ease-in-out bg-red-600 rounded-md hover:bg-red-700 max-w-max">
+                    class="px-4 py-2 text-center text-white transition duration-200 ease-in-out bg-red-600 rounded-md hover:bg-red-700 max-w-max">
                     CONTACTEER ONS VANDAAG NOG
                 </a>
             </div>
@@ -99,7 +99,7 @@
                     </span> en antwoorden al uw vragen over de
                     verkoop van uw wagen.</p>
                 <a href="/"
-                    class="px-4 py-2 ml-auto text-white transition duration-200 ease-in-out bg-red-600 rounded-md hover:bg-red-700 max-w-max">
+                    class="px-4 py-2 ml-auto text-center text-white transition duration-200 ease-in-out bg-red-600 rounded-md hover:bg-red-700 max-w-max">
                     VRAAG GRATIS EEN TAXATIE
                 </a>
             </div>
@@ -140,7 +140,7 @@
                 <p>Als alles in orde is wordt een verkoopovereenkomst opgesteld, de betaling wordt naar wens ofwel instant
                     uitgevoerd via overschrijving of cash betaald. Onze eigen ophaaldienst haalt de wagen daarna op.</p>
                 <a href="/"
-                    class="px-4 py-2 mr-auto text-white transition duration-200 ease-in-out bg-red-600 rounded-md hover:bg-red-700 max-w-max">
+                    class="px-4 py-2 mr-auto text-center text-white transition duration-200 ease-in-out bg-red-600 rounded-md hover:bg-red-700 max-w-max">
                     VRAAG GRATIS EEN TAXATIE
                 </a>
             </div>

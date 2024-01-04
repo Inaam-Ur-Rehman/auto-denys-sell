@@ -1,4 +1,4 @@
-<div class="max-w-3xl mx-auto my-8">
+<div class="max-w-3xl px-4 mx-auto my-8">
     <h4 class="my-8 text-2xl font-bold text-center text-theme-red">Uw contact gegevens</h4>
 
     <form wire:submit.prevent='save' class="flex flex-col gap-4">

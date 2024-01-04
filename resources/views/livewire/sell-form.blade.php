@@ -1,7 +1,8 @@
 <div class="bg-[#1E1E1E] relative py-8 form-decoration px-4">
     <div class="circle"></div>
     <div class="relative max-w-3xl md:max-w-[80%] lg:max-w-3xl p-6 mx-auto bg-white rounded-2xl z-[100]">
-        <h2 class="text-3xl font-bold text-center text-theme-red">Gratis waardebepaling in enkele stappen.</h2>
+        <h2 class="text-2xl font-bold text-center sm:text-3xl text-theme-red">Gratis waardebepaling in enkele stappen.
+        </h2>
         <p class="my-2 text-xl text-center">Zorgeloos de beste prijs.</p>
         <form wire:submit.prevent='save' class="flex flex-col gap-y-6">
             <h3 class="my-4 text-xl font-bold text-theme-red">Gegevens auto</h3>
@@ -163,14 +164,15 @@
 
         </form>
     </div>
-    <h2 class="mt-6 text-4xl font-bold text-center text-theme-red ">
+    <h2 class="mt-6 text-2xl font-bold text-center sm:text-4xl text-theme-red ">
         Toch liever wat persoonlijker?
     </h2>
     <p class="text-xl text-center text-white max-w-[500px] mx-auto my-2">
         Geen probleem. Eén van onze medewerkers helpt je graag verder bij het verkopen van uw auto.
     </p>
     <a href={{ route('overons') }}
-        class="block px-8 py-2 mx-auto mt-6 text-white rounded-md bg-theme-red max-w-max">NEEM CONTACT
+        class="block px-3 py-2 mx-auto mt-6 text-sm text-white rounded-md sm:px-8 whitespace-nowrap sm:text-base bg-theme-red max-w-max">NEEM
+        CONTACT
         MET
         ONS OP</a>
 
