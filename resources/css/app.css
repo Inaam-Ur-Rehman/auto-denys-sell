@@ -20,3 +20,43 @@
         display: none;
     }
 }
+
+.form-decoration::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: -4%;
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+    opacity: 0.5;
+    background-color: #422121;
+    transform: translateX(-20%) translateY(-25%) rotate(45deg);
+    border-radius: 50%;
+}
+.form-decoration::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    right: -10%;
+    z-index: 1;
+    height: 300px;
+    width: 300px;
+    background-color: #422121;
+    opacity: 0.5;
+    transform: translateX(-20%) translateY(-25%) rotate(45deg);
+    border-radius: 50%;
+}
+
+.circle{
+    position: absolute;
+    top: 70%;
+    right: -5%;
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    background-color: #422121;
+    opacity: 0.5;
+    transform: translateX(-20%) translateY(-25%) rotate(45deg);
+    border-radius: 50%;
+}

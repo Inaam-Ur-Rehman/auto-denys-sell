@@ -1,5 +1,6 @@
-<div class="bg-[#1E1E1E] py-8">
-    <div class="max-w-3xl p-6 mx-auto bg-white rounded-2xl">
+<div class="bg-[#1E1E1E] relative py-8 form-decoration px-4">
+    <div class="circle"></div>
+    <div class="relative max-w-3xl md:max-w-[80%] lg:max-w-3xl p-6 mx-auto bg-white rounded-2xl z-[100]">
         <h2 class="text-3xl font-bold text-center text-theme-red">Gratis waardebepaling in enkele stappen.</h2>
         <p class="my-2 text-xl text-center">Zorgeloos de beste prijs.</p>
         <form wire:submit.prevent='save' class="flex flex-col gap-y-6">
