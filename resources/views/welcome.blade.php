@@ -54,11 +54,9 @@
             <div></div>
         </div>
     </div>
-    <div
-        class=" w-full h-full text-white relative px-4 md:px-24 items-center 
-        bg-[url('http://localhost:8000/images/verkoop.png')]
-         bg-no-repeat bg-center            
-        ">
+    <div class="relative items-center w-full h-full px-4 text-white !bg-center !bg-no-repeat md:px-24"
+        style="background-image: url('{{ asset('images/verkoop.png') }}')">
+        >
         <div
             class="grid items-end content-end justify-end grid-cols-1 py-8 mx-auto text-right md:grid-cols-2 max-w-screen-theme-screen">
             <div></div>
@@ -109,11 +107,8 @@
     </div>
     {{-- bg-[url('{{ asset('images/zijn.png') }}')] --}}
 
-    <div
-        class=" w-full h-full text-white relative px-4 md:px-24 items-center 
-        bg-[url('http://localhost:8000/images/zijn.png')]
-         bg-no-repeat bg-center            
-        ">
+    <div class="relative items-center w-full h-full px-4 text-white !bg-center !bg-no-repeat  md:px-24"
+        style="background-image: url('{{ asset('images/zijn.png') }}')">
         <div
             class="grid items-end content-end justify-end grid-cols-1 py-8 mx-auto text-left md:grid-cols-2 max-w-screen-theme-screen">
             <div class="flex flex-col gap-4 ">
