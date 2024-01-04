@@ -56,7 +56,7 @@
     </div>
     <div class="relative items-center w-full h-full px-4 text-white !bg-center !bg-no-repeat !bg-cover md:px-24"
         style="background-image: url('{{ asset('images/verkoop.png') }}')">
-        >
+
         <div
             class="grid items-end content-end justify-end grid-cols-1 py-8 mx-auto text-right md:grid-cols-2 max-w-screen-theme-screen">
             <div></div>
