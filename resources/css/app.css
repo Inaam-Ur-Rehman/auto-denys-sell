@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-feature::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 220px;
+    width: 220px;
+    background-color: #422121;
+    transform: translateX(-20%) translateY(-25%) rotate(45deg);
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .card-feature::before {
+        display: none;
+    }
+}
