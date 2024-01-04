@@ -54,7 +54,7 @@
             <div></div>
         </div>
     </div>
-    <div class="relative items-center w-full h-full px-4 text-white !bg-center !bg-no-repeat md:px-24"
+    <div class="relative items-center w-full h-full px-4 text-white !bg-center !bg-no-repeat !bg-cover md:px-24"
         style="background-image: url('{{ asset('images/verkoop.png') }}')">
         >
         <div
@@ -107,7 +107,7 @@
     </div>
     {{-- bg-[url('{{ asset('images/zijn.png') }}')] --}}
 
-    <div class="relative items-center w-full h-full px-4 text-white !bg-center !bg-no-repeat  md:px-24"
+    <div class="relative items-center w-full h-full px-4 text-white !bg-center !bg-no-repeat !bg-cover  md:px-24"
         style="background-image: url('{{ asset('images/zijn.png') }}')">
         <div
             class="grid items-end content-end justify-end grid-cols-1 py-8 mx-auto text-left md:grid-cols-2 max-w-screen-theme-screen">
