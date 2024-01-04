@@ -9,7 +9,7 @@
     </div>
     <div
         class=" w-full h-full text-white relative px-4 md:px-24 items-center 
-        bg-[url('http://localhost:8000/images/doen.png')]
+        bg-[url('{{ asset('images/doen.png') }}')]
          bg-no-repeat bg-center  bg-cover          
         ">
         <div class="grid grid-cols-1 py-8 mx-auto md:grid-cols-2 md:py-28 max-w-screen-theme-screen">
