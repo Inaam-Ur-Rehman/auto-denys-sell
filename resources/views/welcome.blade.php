@@ -8,7 +8,7 @@
         @livewire('sell-form')
     </div>
     <div class="relative items-center w-full h-full px-4 text-white !bg-center !bg-no-repeat !bg-cover  md:px-24"
-        style="background-image: url('{{ asset('images/verkoop.png') }}')">
+        style="background-image: url('{{ asset('images/doen.png') }}')">
         <div class="grid grid-cols-1 py-8 mx-auto md:grid-cols-2 md:py-28 max-w-screen-theme-screen">
             <div class="flex flex-col self-center gap-4">
                 <h2 class="text-4xl font-bold text-red-600">What we doen.</h2>
